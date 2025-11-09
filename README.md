@@ -56,5 +56,12 @@ Master’s in Artificial Intelligence, Long Island University – Brooklyn
 
 ---
 
+## 📄 Documentation
+All project documents are available in the [`docs/`](docs/) folder:
+- [Final Report (PDF)](docs/Final_Report.pdf)
+- [Proposal (DOCX)](docs/Proposal.docx)
+- [Presentation (PPTX)](docs/Presentation.pptx)
+- [Research Paper](docs/Paper.pdf)
+
 ## 🪪 License
 This project is released under the Apache 2.0 License (see LICENSE file).
