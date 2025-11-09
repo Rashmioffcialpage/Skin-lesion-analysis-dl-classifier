@@ -1,7 +1,9 @@
 # 🧠 AI700 Project – Skin Lesion Classification using Vision Transformer (ViT)
 
- **Course:** AI700-001 (Fall 2025) – Machine Learning and Pattern Recognition  
+ **Course:** AI700-001 (Fall 2025) – Machine Learning and Pattern Recognition 
+ 
  **University:** Long Island University – Brooklyn Campus  
+ 
  **Team Members:**  
   Rashmi Thimmaraju  
  Binh Diep  
@@ -9,6 +11,7 @@
  Kirtan Patel  
  
 **Date:** November 7, 2025  
+
  **Instructor:** Prof. Reda Nacif ElAlaoui (Course Instructor)
 
 ---
@@ -27,6 +30,7 @@ that help dermatologists achieve faster and more accurate diagnoses.
 ---
 
 ## 💡 Application
+
 AI-powered early detection tools can:
 - Reduce clinical diagnostic time  
 - Improve diagnostic accuracy for melanoma and other lesions  
@@ -70,6 +74,7 @@ AI-powered early detection tools can:
 ## ⚙️ Methodology
 
 **Step-by-Step Pipeline**
+
 1. **Dataset Collection:** Import HAM10000 dataset (images + metadata).  
 2. **Preprocessing:** Resize, normalize, balance, augment images.  
 3. **Feature Extraction:** Vision Transformer base (patch16-224).  
@@ -95,31 +100,37 @@ AI-powered early detection tools can:
 ## 🚀 Run Instructions
 
 1. **Install dependencies**
+   
    ```bash
    pip install -r requirements.txt
 Download dataset
 
 pip install kaggle
+
 kaggle datasets download -d kmader/skin-cancer-mnist-ham10000
 unzip skin-cancer-mnist-ham10000.zip -d data/HAM10000/
 
 
 Train model
+
 python transformer_model.py
 
 
 Evaluate
+
 Confusion matrix and classification report auto-generated
 Model checkpoints saved in outputs/best_model.pth
 
 📊 Results and Evaluation
 
 ✅ CNN Model:
+
 Accuracy: 70.53%
 Loss: ≈1.20
 
 
 ✅ Vision Transformer (ViT) Model:
+
 Metric	Value
 Training Accuracy	96%
 Testing Accuracy	89%
@@ -128,11 +139,13 @@ Weighted Avg F1-Score	0.89
 
 
 🧾 Observation:
+
 ViT outperformed CNN models, 
 showing improved precision and recall for minority lesion classes.
 
 
 📈 Model Comparison
+
 Aspect	CNN	ViT
 Feature Learning	Convolutional filters	Attention-based transformer
 Accuracy	70.53%	96%
@@ -157,13 +170,17 @@ Incorporate clinical metadata (patient history, lesion evolution).
 Develop web-based diagnostic tool for clinician use.
 
 👩‍💻 Authors
-Name	Role
-Rashmi Thimmaraju	ViT model implementation, training & evaluation
-Binh Diep	Report & presentation preparation
-Kartavya Mandora	Data preprocessing & augmentation
-Kirtan Patel	Model comparison & documentation
+
+Rashmi Thimmaraju	-->ViT model implementation, training & evaluation
+
+Binh Diep	-->Report & presentation preparation
+
+Kartavya Mandora	--->Data preprocessing & augmentation
+
+Kirtan Patel ----->	Model comparison & documentation
 
 🪪 License
 
 This project is released under the Apache 2.0 License
+
 Dataset © Kaggle – used under CC BY-NC.
