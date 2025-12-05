@@ -173,11 +173,11 @@ Develop web-based diagnostic tool for clinician use.
 
 Rashmi Thimmaraju	-->ViT model implementation, training & evaluation
 
-Binh Diep	-->Report & presentation preparation
+Binh Diep	-->	Model comparison & documentation
 
 Kartavya Mandora	--->Data preprocessing & augmentation
 
-Kirtan Patel ----->	Model comparison & documentation
+Kirtan Patel ----->Report & presentation preparation
 
 🪪 License
 
